@@ -1,0 +1,1777 @@
+[
+    {
+        "id": "albedo",
+        "name": "Albedo",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 13226,
+            "atk": 251,
+            "def": 876
+        },
+        "vision": "Geo",
+        "description": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+        "normalAttack": {
+            "name": "Normal Attack: Favonius Bladework - Weiss",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Abiogenesis: Solar Isotoma",
+            "description": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.  Solar Isotoma has the following properties: \u00b7When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF.  \u00b7Transient Blossoms can only be generated once every 2s. \u00b7When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time. \u00b7Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time.   Hold to designate the location of the skill.  This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun."
+        },
+        "burst": {
+            "name": "Rite of Progeniture: Tectonic Tide",
+            "description": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him. If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.  Tectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.  Under the Kreideprinz's command, the tectonic tide of creation seethes into life."
+        }
+    },
+    {
+        "id": "alhaitham",
+        "name": "Alhaitham",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 13348,
+            "atk": 313,
+            "def": 782
+        },
+        "vision": "Dendro",
+        "description": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free \u2014 free from the searching eyes of ordinary people, anyway.",
+        "normalAttack": {
+            "name": "Normal Attack: Abductive Reasoning",
+            "description": "Normal Attack Performs up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Universality: An Elaboration on Form",
+            "description": "Rushes forward, dealing Dendro DMG to nearby opponents when the rush ends, causing a Chisel-Light Mirror to form. Holding this skill will cause it to behave differently.  Hold Enters Aiming Mode to adjust the direction of Alhaitham's rush attack.  Chisel-Light Mirror When this skill is unleashed, Alhaitham will generate 1 Chisel-Light Mirror. If there are no Mirrors at this time, he will generate 1 additional Mirror. Chisel-Light Mirrors will have the following properties: \u00b7When he possesses Chisel-Light Mirrors, Alhaitham's Normal, Charged, and Plunging Attacks will be converted to Dendro DMG. This cannot be overridden. \u00b7When attacks of the aforementioned kind hit opponents, the Chisel-Light Mirrors will unleash a Projection Attack that deals AoE Dendro DMG based on the number of Mirrors on the field. \u00b7A total of 3 Chisel-Light Mirrors can exist at once. \u00b7The Chisel-Light Mirrors will disappear one after the other over time, and will all disappear when Alhaitham leaves the field.  \"Truth inherently exists amidst uncertainty. Even the greatest of scholars are not immune to error.\""
+        },
+        "burst": {
+            "name": "Particular Field: Fetters of Phenomena",
+            "description": "Creates a Particular Binding Field and deals multiple instances of AoE Dendro DMG. If Chisel-Light Mirrors exist when this ability is unleashed, all such Mirrors will be consumed and increase the number of DMG instances dealt. 2s after this ability is unleashed, if 0/1/2/3 Mirrors were consumed, Alhaitham will generate 3/2/1/0 new Mirrors in turn.  \"If a researcher makes wisdom their goal, then they should be prepared to make an enemy of every word they read. Only then can they avoid bias.\""
+        }
+    },
+    {
+        "id": "aloy",
+        "name": "Aloy",
+        "rarity": 5,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 10899,
+            "atk": 234,
+            "def": 676
+        },
+        "vision": "Cryo",
+        "description": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
+        "normalAttack": {
+            "name": "Normal Attack: Rapid Fire",
+            "description": "Normal Attack Perform up to 4 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Frozen Wilds",
+            "description": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG. When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack. Aloy can gain up to 1 Coil stack every 0.1s.  Coil \u00b7Each stack increases Aloy's Normal Attack DMG. \u00b7When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG.  While in the Rushing Ice state, Aloy cannot obtain new Coil stacks. Coil effects will be cleared 30s after Aloy leaves the field.  You think that's cold? Guess you've never been to The Cut."
+        },
+        "burst": {
+            "name": "Prophecies of Dawn",
+            "description": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo DMG.  Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes."
+        }
+    },
+    {
+        "id": "amber",
+        "name": "Amber",
+        "rarity": 4,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9461,
+            "atk": 223,
+            "def": 601
+        },
+        "vision": "Pyro",
+        "description": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius.",
+        "normalAttack": {
+            "name": "Normal Attack: Sharpshooter",
+            "description": "Normal Attack Perform up to 5 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal Pyro DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Explosive Puppet",
+            "description": "The ever-reliable Baron Bunny takes the stage.  Baron Bunny \u00b7Continuously taunts the enemy, drawing their fire. \u00b7Baron Bunny's HP scales with Amber's Max HP. \u00b7When destroyed or when its timer expires, Baron Bunny explodes, dealing AoE Pyro DMG.  Hold Adjusts the throwing direction of Baron Bunny. The longer the button is held, the further the throw.  Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd."
+        },
+        "burst": {
+            "name": "Fiery Rain",
+            "description": "Fires off a shower of arrows, dealing continuous AoE Pyro DMG.  Amber's passion truly burns hot."
+        }
+    },
+    {
+        "id": "arataki_itto",
+        "name": "Arataki Itto",
+        "rarity": 5,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 12858,
+            "atk": 227,
+            "def": 959
+        },
+        "vision": "Geo",
+        "description": "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",
+        "normalAttack": {
+            "name": "Normal Attack: Fight Club Legend",
+            "description": "Normal Attack Perform up to 4 consecutive strikes. When the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively. Max 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.  Additionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"  Charged Attack When holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash. If no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.  Plunging Attack Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Masatsu Zetsugi: Akaushi Burst!",
+            "description": "Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing Geo DMG to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of Superlative Superstrength.  Ushi will remain on the field and provide support in the following ways: \u00b7 Taunts surrounding opponents and draws their attacks. \u00b7 Inherits HP based on a percentage of Arataki Itto's Max HP. \u00b7 When Ushi takes DMG, Arataki Itto gains 1 stack of Superlative Superstrength. Only 1 stack can be gained in this way every 2s. \u00b7 Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of Superlative Superstrength when it leaves.  Hold Adjust throwing angle.  Ushi is considered a Geo construct. Arataki Itto can only deploy 1 Ushi on the field at any one time.  The name of this technique is derived from Onibudou (a light novel series written by Junkichi). However, calling it \"Onisatsu Zetsugi\" probably constitutes copyright infringement \u2014 not to mention how Itto himself is an oni and all..."
+        },
+        "burst": {
+            "name": "Royal Descent: Behold, Itto the Evil!",
+            "description": "Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle. This state has the following special properties: \u00b7 Converts Itto's Normal, Charged, and Plunging Attacks to Geo DMG. This cannot be overridden. \u00b7 Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF. \u00b7 On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of Superlative Superstrength. \u00b7 Decreases Itto's Elemental and Physical RES by 20%.  The Raging Oni King state will be cleared when Itto leaves the field.  This is the pinnacle technique of the ultimate fighting style (according to Itto). It would be pointless for Arataki Itto to reference any other fighting styles to improve his own, for he, and no other, is the strongest, most terrible oni in the land. Shouta thinks it looks really cool."
+        }
+    },
+    {
+        "id": "baizhu",
+        "name": "Baizhu",
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 13348,
+            "atk": 193,
+            "def": 500
+        },
+        "vision": "Dendro",
+        "description": "The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.",
+        "normalAttack": {
+            "name": "Normal Attack: The Classics of Acupuncture",
+            "description": "Normal Attack Performs up to 4 attacks that deal Dendro DMG to opponents in front of him.  Charged Attack Consumes a certain amount of Stamina to deal AoE Dendro DMG to opponents in front of him after a short casting time.  Plunging Attack Calling upon the might of Dendro, Baizhu plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Dendro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Universal Diagnosis",
+            "description": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing Dendro DMG. After it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.  Those in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show."
+        },
+        "burst": {
+            "name": "Holistic Revivification",
+            "description": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs Dendro DMG with 250% effectiveness. While in this state, Baizhu will generate a new Seamless Shield every 2.5s.  The Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing Dendro DMG under the following circumstances: \u00b7When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated. \u00b7When the Seamless Shield's effects expire, or when it is shattered.  If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you."
+        }
+    },
+    {
+        "id": "barbara",
+        "name": "Barbara",
+        "rarity": 4,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 9787,
+            "atk": 159,
+            "def": 669
+        },
+        "vision": "Hydro",
+        "description": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
+        "normalAttack": {
+            "name": "Normal Attack: Whisper of Water",
+            "description": "Normal Attack Perform up to 4 water splash attacks that deal Hydro DMG.  Charged Attack Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.  Plunging Attack Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Let the Show Begin\u266a",
+            "description": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding opponents and applying the Wet status to them.  Melody Loop \u00b7On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP. \u00b7On hit, Barbara's Charged Attack generates 4 times the amount of healing. \u00b7Periodically regenerates your own active character's HP. \u00b7Applies the Wet status to the character and to opponents who come in contact with them.  Barbara's music is the magic that heals her companions."
+        },
+        "burst": {
+            "name": "Shining Miracle\u266a",
+            "description": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.  Barbara's desire to heal strengthens her will to fight and sing."
+        }
+    },
+    {
+        "id": "beidou",
+        "name": "Beidou",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 13050,
+            "atk": 225,
+            "def": 648
+        },
+        "vision": "Electro",
+        "description": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+        "normalAttack": {
+            "name": "Normal Attack: Oceanborne",
+            "description": "Normal Attack Perform up to 5 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.  Plunging Attack Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Tidecaller",
+            "description": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.  Press Accumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.  Hold Lifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP. Attacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice. The shield possesses the following properties: \u00b7Has 250% Electro DMG Absorption Efficiency. \u00b7Applies the Electro element to Beidou upon activation.  Conquer the high seas! Pursue the waves and chase the storm!"
+        },
+        "burst": {
+            "name": "Stormbreaker",
+            "description": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing Electro DMG to nearby opponents.  Thunderbeast's Targe \u00b7When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing Electro DMG. \u00b7Increases the character's resistance to interruption, and decreases DMG taken.  A maximum of 1 lightning discharge can be triggered per second.  With a peal of thunder, Haishan is slain."
+        }
+    },
+    {
+        "id": "bennett",
+        "name": "Bennett",
+        "rarity": 4,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 12397,
+            "atk": 191,
+            "def": 771
+        },
+        "vision": "Pyro",
+        "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+        "normalAttack": {
+            "name": "Normal Attack: Strike of Fortune",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Passion Overload",
+            "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...  Press A single, swift flame strike that deals Pyro DMG.  Hold (Short) Charges up, resulting in different effects when unleashed based on the Charge Level. \u00b7Level 1: Strikes twice, dealing Pyro DMG and launching opponents. \u00b7Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy. Bennett takes no damage from being launched.  An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over."
+        },
+        "burst": {
+            "name": "Fantastic Voyage",
+            "description": "Bennett performs a jumping attack that deals Pyro DMG, creating an Inspiration Field.  Inspiration Field \u00b7If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP. \u00b7If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK. \u00b7Imbues characters within the AoE with Pyro.  Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\""
+        }
+    },
+    {
+        "id": "candace",
+        "name": "Candace",
+        "rarity": 4,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 10875,
+            "atk": 212,
+            "def": 683
+        },
+        "vision": "Hydro",
+        "description": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+        "normalAttack": {
+            "name": "Normal Attack: Gleaming Spear - Guardian Stance",
+            "description": "Normal Attack Performs up to 4 consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Sacred Rite: Heron's Sanctum",
+            "description": "Candace's fighting style is capable of warding off an entire tide of foes.  Tap Rushes forward with her shield, dealing Hydro DMG to opponents in front of her.  Hold Raises her shield to block incoming attacks from nearby opponents, forming a barrier that absorbs DMG based on her Max HP and absorbs Hydro DMG 250% more effectively. This barrier lasts until the Elemental Skill is unleashed. After holding for a certain period of time, Candace will finish charging, and when the skill button is released, the skill duration expires, or when the barrier is broken, she will perform a leaping strike that deals Hydro DMG to opponents in front of her.  The oath of the guardians is more stalwart yet than the shields they inherit."
+        },
+        "burst": {
+            "name": "Sacred Rite: Wagtail's Tide",
+            "description": "Raising her weapon on high, Candace calls upon a divine blessing that deals AoE Hydro DMG based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.  Prayer of the Crimson Crown This effect has the following properties: \u00b7Characters deal increased Elemental DMG with their Normal Attacks. \u00b7Whenever a character takes the field, they will unleash a rippling wave of water that deals Hydro DMG to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill. \u00b7Sword, Claymore, and Polearm-wielding characters under this effect will obtain a Hydro Infusion.  This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm."
+        }
+    },
+    {
+        "id": "chongyun",
+        "name": "Chongyun",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 10984,
+            "atk": 223,
+            "def": 648
+        },
+        "vision": "Cryo",
+        "description": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+        "normalAttack": {
+            "name": "Normal Attack: Demonbane",
+            "description": "Normal Attack Perform up to 4 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.   Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Spirit Blade: Chonghua's Layered Frost",
+            "description": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals Cryo DMG. After a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with Cryo.  \"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\""
+        },
+        "burst": {
+            "name": "Spirit Blade: Cloud-Parting Star",
+            "description": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground. When the spirit blades explode, they will deal AoE Cryo DMG and launch opponents.  \"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\""
+        }
+    },
+    {
+        "id": "collei",
+        "name": "Collei",
+        "rarity": 4,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9787,
+            "atk": 200,
+            "def": 601
+        },
+        "vision": "Dendro",
+        "description": "A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.",
+        "normalAttack": {
+            "name": "Normal Attack: Supplicant's Bowmanship",
+            "description": "Normal Attack Perform up to 4 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal Dendro DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Floral Brush",
+            "description": "Throws out a Floral Ring that deals 1 instance of Dendro DMG to targets it comes into contact with. The Floral Ring will return after a set time, dealing Dendro DMG once again.  This is Collei's go-to gadget for dealing with unruly wild beasts. A few good thwacks from this tool will generally improve their behavior. This same principle works just as well on evildoers."
+        },
+        "burst": {
+            "name": "Trump-Card Kitty",
+            "description": "Trusty Cuilein-Anbar comes to save the day! Throws the doll named Cuilein-Anbar, causing an explosion that deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing AoE Dendro DMG.  \"Pretty impressive, huh? ... Eh? You want to know how I came up with the name Cuilein-Anbar? Uh, well, I...\""
+        }
+    },
+    {
+        "id": "cyno",
+        "name": "Cyno",
+        "rarity": 5,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 12491,
+            "atk": 318,
+            "def": 859
+        },
+        "vision": "Electro",
+        "description": "The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.",
+        "normalAttack": {
+            "name": "Normal Attack: Invoker's Spear",
+            "description": "Normal Attack Performs up to 4 consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Secret Rite: Chasmic Soulfarer",
+            "description": "Performs a swift thrust, dealing Electro DMG to opponents along the path.  When Cyno is under the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, he will instead unleash a Mortuary Rite that deals thunderous AoE Electro DMG and extends the duration of Pactsworn Pathclearer.  \"This judgment brooks no choice. There is no rejection or acceptance here... We have both long been bound up in this conviction.\""
+        },
+        "burst": {
+            "name": "Sacred Rite: Wolf's Swiftness",
+            "description": "Calls upon a divine spirit to indwell him, morphing into the Pactsworn Pathclearer.  Pactsworn Pathclearer Cyno's Normal, Charged, and Plunging Attacks will be converted to Electro DMG that cannot be overridden. \u00b7Cyno's Elemental Mastery and resistance to interruption will increase, and he gains immunity to Electro-Charged DMG.  This effect will be canceled when Cyno leaves the field and lasts a maximum of 18s.  The secret rituals passed down within the ancient nation are as a final judgment to the General Mahamatra. Whether now or in the past, whether great storm or serpent, none shall shake the majesty of the law."
+        }
+    },
+    {
+        "id": "dehya",
+        "name": "Dehya",
+        "rarity": 5,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 15675,
+            "atk": 265,
+            "def": 628
+        },
+        "vision": "Pyro",
+        "description": "A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.",
+        "normalAttack": {
+            "name": "Normal Attack: Sandstorm Assault",
+            "description": "Normal Attack Performs up to 4 consecutive strikes using her Claymore and her martial arts.  Charged Attack Drains Stamina over time to perform continuous slashes. At the end of the sequence, performs a more powerful slash.  Plunging Attack Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Molten Inferno",
+            "description": "This art of Dehya's own invention changes its method of use depending on the combat situation.  Indomitable Flame This skill will be unleashed should there be no Fiery Sanctum field created by Dehya herself present at the time. Deals AoE Pyro DMG, and creates a field known as Fiery Sanctum.  Ranging Flame This skill will be unleashed should a Fiery Sanctum field created by Dehya herself already exist. Dehya will perform a leaping attack, dealing AoE Pyro DMG before recreating a Fiery Sanctum field at her new position. A Fiery Sanctum field created this way will inherit the remaining duration of the previous field.  Ranging Flame can be used only once throughout a single Fiery Sanctum field's duration.  Fiery Sanctum When an opponent within a Fiery Sanctum field takes DMG, the field will unleash a coordinated attack, dealing AoE Pyro DMG to them based on Dehya's ATK and Max HP. This effect can be triggered once every 2.5s. Active characters within this field have their resistance to interruption increased, and when such characters take DMG, a portion of that damage will be mitigated and flow into Redmane's Blood. Dehya will then take this DMG over 10s. When the mitigated DMG stored by Redmane's Blood reaches or goes over a certain percentage of Dehya's Max HP, she will stop mitigating DMG in this way.  Only 1 Fiery Sanctum created by Dehya herself can exist at the same time.  Walk this fiery ordeal with me and purge all impurity, just as a beast of flames that must descend from the blaze."
+        },
+        "burst": {
+            "name": "Leonine Bite",
+            "description": "Unleashing her burning anger and casting her inconvenient blade aside, Dehya enters the Blazing Lioness state and increases her resistance to interruption. In this state, Dehya will automatically and continuously unleash the Flame-Mane's Fists, dealing Pyro DMG based on her ATK and Max HP, and when its duration ends, she will unleash an Incineration Drive, dealing AoE Pyro DMG based on her ATK and Max HP. If a Fiery Sanctum field created by Dehya's own Elemental Skill \"Molten Inferno\" exists when this ability is unleashed, Dehya will retrieve it, and then create another field once Blazing Lioness's duration expires. This field will take on the retrieved field's duration at the moment of its retrieval. In this state, Dehya will be unable to cast her Elemental Skill, or perform Normal, Charged, and Plunging Attacks. \"Normal Attack: Sandstorm Assault\" and Elemental Skill \"Molten Inferno\" will be replaced by \"Roaring Barrage.\"  Roaring Barrage Unleashing Roaring Barrage within 0.4s after each Flame-Mane's Fist strike will increase the speed at which the next Flame-Mane's Fist strike will be triggered.  Even the flowing flames must obey her rage and at her command become her fangs and claws."
+        }
+    },
+    {
+        "id": "diluc",
+        "name": "Diluc",
+        "rarity": 5,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 12981,
+            "atk": 335,
+            "def": 784
+        },
+        "vision": "Pyro",
+        "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+        "normalAttack": {
+            "name": "Normal Attack: Tempered Sword",
+            "description": "Normal Attack Perform up to 4 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.  Plunging Attack Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Searing Onslaught",
+            "description": "Performs a forward slash that deals Pyro DMG.  This skill can be consecutively used 3 times. Enters CD if not cast again within a short period.  The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty."
+        },
+        "burst": {
+            "name": "Dawn",
+            "description": "Releases intense flames to knock back nearby opponents, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG. The searing flames that run down his blade cause it to be infused with Pyro.  The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn."
+        }
+    },
+    {
+        "id": "diona",
+        "name": "Diona",
+        "rarity": 4,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9570,
+            "atk": 212,
+            "def": 601
+        },
+        "vision": "Cryo",
+        "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+        "normalAttack": {
+            "name": "Normal Attack: K\u00e4tzlein Style",
+            "description": "Normal Attack Perform up to 5 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Icy Paws",
+            "description": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.  Press Rapidly fires off 2 Icy Paws.  Hold Dashes back quickly before firing five Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.  The shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.  When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision \u2014 now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!"
+        },
+        "burst": {
+            "name": "Signature Mix",
+            "description": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.  Drunken Mist \u00b7Deals continuous Cryo DMG to opponents within the AoE. \u00b7Continuously regenerates the HP of characters within the AoE.  A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin."
+        }
+    },
+    {
+        "id": "dori",
+        "name": "Dori",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 12397,
+            "atk": 223,
+            "def": 723
+        },
+        "vision": "Electro",
+        "description": "An elusive merchant who has a fondness for glittering Mora.",
+        "normalAttack": {
+            "name": "Normal Attack: Marvelous Sword-Dance (Modified)",
+            "description": "Normal Attack Perform up to 3 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, performs a more powerful slash.   Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
+            "description": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing Electro DMG. After the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track opponents and deal Electro DMG.  It is said that Dori can fix any problem for you... for the right price."
+        },
+        "burst": {
+            "name": "Alcazarzaray's Exactitude",
+            "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.  Jinni Connects to a nearby character. The connected character will: \u00b7 Continuously restore HP based on Dori's Max HP. \u00b7 Continuously regenerate Energy. \u00b7 Be affected by Electro. When the connector between the Jinni and the character touches opponents, it will deal one instance of Electro DMG to them every 0.4s.  Only one Jinni can exist at one time.  \"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure \u2014 comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\""
+        }
+    },
+    {
+        "id": "eula",
+        "name": "Eula",
+        "rarity": 5,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 13226,
+            "atk": 342,
+            "def": 751
+        },
+        "vision": "Cryo",
+        "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+        "normalAttack": {
+            "name": "Normal Attack: Favonius Bladework - Edel",
+            "description": "Normal Attack Perform up to 5 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.  Plunging Attack Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Icetide Vortex",
+            "description": "Sharp frost, swift blade.  Press Slashes swiftly, dealing Cryo DMG. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.  Grimheart Increases Eula's resistance to interruption and DEF.  Hold Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her. If Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased. Each consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.  \"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\""
+        },
+        "burst": {
+            "name": "Glacial Illumination",
+            "description": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s. While present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s. Once its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents. This DMG scales on the number of energy stacks the Lightfall Sword has accumulated. If Eula leaves the field, the Lightfall Sword will explode immediately.  It is easy to sink. But even so, she desires to freeze this oncoming tide."
+        }
+    },
+    {
+        "id": "faruzan",
+        "name": "Faruzan",
+        "rarity": 4,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9570,
+            "atk": 196,
+            "def": 628
+        },
+        "vision": "Anemo",
+        "description": "A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds.",
+        "normalAttack": {
+            "name": "Normal Attack: Parthian Shot",
+            "description": "Normal Attack Performs up to 4 consecutive shots with a bow.  Charged Attack Performs a more precise Aimed Shot with increased DMG. While aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Wind Realm of Nasamjnin",
+            "description": "Faruzan deploys a polyhedron that deals AoE Anemo DMG to nearby opponents. She will also enter the Manifest Gale state. While in the Manifest Gale state, Faruzan's next fully charged shot will consume this state and will become a Hurricane Arrow that contains high-pressure currents. This arrow deals Anemo DMG based on the DMG of a fully charged Aimed Shot from \"Normal Attack: Parthian Shot.\"  Pressurized Collapse The Hurricane Arrow will apply a Pressurized Collapse effect to the opponent or character hit. This effect will be removed after a short delay, creating a vortex that deals AoE Anemo DMG and pulls nearby objects and opponents in. If the Hurricane Arrow does not hit any opponent or character, it will create a Pressurized Collapse effect at its point of impact. The vortex DMG is considered Elemental Skill DMG.  The winds of truth buffet the spirits of those who seek truth, dispersing the miasma of preconception."
+        },
+        "burst": {
+            "name": "The Wind's Secret Ways",
+            "description": "Faruzan deploys a Dazzling Polyhedron that unleashes a Whirlwind Pulse and deals AoE Anemo DMG. While the Dazzling Polyhedron persists, it will continuously move along a triangular path. Once it reaches each corner of that triangular path, it will unleash 1 more Whirlwind Pulse.  Whirlwind Pulse \u00b7When the Whirlwind Pulse is unleashed, it will apply Perfidious Wind's Bale to nearby opponents, decreasing their Anemo RES. \u00b7The Whirlwind Pulse will also apply Prayerful Wind's Benefit to all nearby party members when it is unleashed, granting them an Anemo DMG Bonus.  One must have respect for the unknown wisdom that one might find hidden in ancient ruins."
+        }
+    },
+    {
+        "id": "fischl",
+        "name": "Fischl",
+        "rarity": 4,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9189,
+            "atk": 244,
+            "def": 594
+        },
+        "vision": "Electro",
+        "description": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+        "normalAttack": {
+            "name": "Normal Attack: Bolts of Downfall",
+            "description": "Normal Attack Perform up to 5 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachs\u00fcchtig Blitz shall deal immense Electro DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Nightrider",
+            "description": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE. For the ability's duration, Oz will continuously attack nearby opponents with Freikugel.  Hold to adjust the location Oz will be summoned to. Press again any time during the ability's duration to once again summon him to Fischl's side.  \"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachs\u00fcchtig Blitz, that which tears open the long night.\" \u2014Flowers for Princess Fischl (IV): Farewell Frau Welt"
+        },
+        "burst": {
+            "name": "Midnight Phantasmagoria",
+            "description": "Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration: \u00b7Fischl takes on Oz's form, greatly increasing her Movement Speed. \u00b7Strikes nearby opponents with lightning, dealing Electro DMG to opponents she comes into contact with. Each opponent can only be struck once. \u00b7Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.  \"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\" \u2014Flowers for Princess Fischl (I): End Time Zersetzung"
+        }
+    },
+    {
+        "id": "ganyu",
+        "name": "Ganyu",
+        "rarity": 5,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9797,
+            "atk": 335,
+            "def": 630
+        },
+        "vision": "Cryo",
+        "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+        "normalAttack": {
+            "name": "Normal Attack: Liutian Archery",
+            "description": "Normal Attack Perform up to 6 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged: \u00b7Charge Level 1: Fires off an icy arrow that deals Cryo DMG. \u00b7Charge Level 2: Fires off a Frostflake Arrow that deals Cryo DMG. The Frostflake Arrow blooms after hitting its target, dealing AoE Cryo DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Trail of the Qilin",
+            "description": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing AoE Cryo DMG.  Ice Lotus \u00b7Continuously taunts surrounding opponents, attracting them to attack it. \u00b7Endurance scales based on Ganyu's Max HP. \u00b7Blooms profusely when destroyed or once its duration ends, dealing AoE Cryo DMG.  \"You saw me, you say? You must be mistaken. I was working overtime then.\""
+        },
+        "burst": {
+            "name": "Celestial Shower",
+            "description": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil. During its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing Cryo DMG.  Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow."
+        }
+    },
+    {
+        "id": "gorou",
+        "name": "Gorou",
+        "rarity": 4,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9570,
+            "atk": 183,
+            "def": 648
+        },
+        "vision": "Geo",
+        "description": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+        "normalAttack": {
+            "name": "Normal Attack: Ripping Fang Fletching",
+            "description": "Normal Attack Perform up to 4 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Inuzaka All-Round Defense",
+            "description": "Deals AoE Geo DMG and sets up a General's War Banner.  General's War Banner Provides up to 3 buffs to active characters within the skill's AoE based on the number of Geo characters in the party at the time of casting: \u00b7 1 Geo character: Adds \"Standing Firm\" - DEF Bonus. \u00b7 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption. \u00b7 3 Geo characters: Adds \"Crunch\" - Geo DMG Bonus.  Gorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.  Hold Adjust the location of the skill.  \"Take up this formation and we'll be safe \u2014 I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt."
+        },
+        "burst": {
+            "name": "Juuga: Forward Unto Victory",
+            "description": "Displaying his valor as a general, Gorou deals AoE Geo DMG and creates a field known as General's Glory to embolden his comrades.  General's Glory This field has the following properties: \u00b7 Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of Geo characters in the party. Also moves together with your active character. \u00b7 Generates 1 Crystal Collapse every 1.5s that deals AoE Geo DMG to 1 opponent within the skill's AoE. \u00b7 Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).  If a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.  If Gorou falls, the effects of General's Glory will be cleared.  \"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition."
+        }
+    },
+    {
+        "id": "hu_tao",
+        "name": "Hu Tao",
+        "rarity": 5,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 15552,
+            "atk": 106,
+            "def": 876
+        },
+        "vision": "Pyro",
+        "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+        "normalAttack": {
+            "name": "Normal Attack: Secret Spear of Wangsheng",
+            "description": "Normal Attack Performs up to six consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Guide to Afterlife",
+            "description": "Only an unwavering flame can cleanse the impurities of this world. Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.  Paramita Papilio \u00b7Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK. \u00b7Converts attack DMG to Pyro DMG, which cannot be overridden by any other elemental infusion. \u00b7Charged Attacks apply the Blood Blossom effect to the enemies hit. \u00b7Increases Hu Tao's resistance to interruption.  Blood Blossom Enemies affected by Blood Blossom will take Pyro DMG every 4s. This DMG is considered Elemental Skill DMG. Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.  Paramita Papilio ends when its duration is over, or Hu Tao has left the battlefield or fallen.  Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\""
+        },
+        "burst": {
+            "name": "Spirit Soother",
+            "description": "Commands a blazing spirit to attack, dealing Pyro DMG in a large AoE. Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit. If Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.  Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame."
+        }
+    },
+    {
+        "id": "jean",
+        "name": "Jean",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 14695,
+            "atk": 239,
+            "def": 769
+        },
+        "vision": "Anemo",
+        "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+        "normalAttack": {
+            "name": "Normal Attack: Favonius Bladework",
+            "description": "Normal Attack Performs up to 5 consecutive strikes.  Charged Attack Consumes a certain amount of stamina to launch an opponent using the power of wind. Launched opponents will slowly fall to the ground.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Gale Blade",
+            "description": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive Anemo DMG.  Hold At the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front. Direction can be adjusted. Character is immobile during skill duration.  That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence."
+        },
+        "burst": {
+            "name": "Dandelion Breeze",
+            "description": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and dealing Anemo DMG. At the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.  Dandelion Field \u00b7Continuously regenerates HP of characters within the AoE and continuously imbues them with Anemo. \u00b7Deals Anemo DMG to opponents entering or exiting the Dandelion Field.  Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others."
+        }
+    },
+    {
+        "id": "kaedehara_kazuha",
+        "name": "Kaedehara Kazuha",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 13348,
+            "atk": 297,
+            "def": 807
+        },
+        "vision": "Anemo",
+        "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+        "normalAttack": {
+            "name": "Normal Attack: Garyuu Bladework",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan.  Plunging Attack: Midare Ranzan When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents."
+        },
+        "elementalSkill": {
+            "name": "Chihayaburu",
+            "description": "Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind. Within 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan.  Press Can be used in mid-air.  Hold Charges up before unleashing greater Anemo DMG over a larger AoE than Press Mode.  Plunging Attack: Midare Ranzan When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents. Midare Ranzan's DMG is considered Plunging Attack DMG.  \"Wind in branches grieves Bygone ages, gods of old Withered autumn leaves\""
+        },
+        "burst": {
+            "name": "Kazuha Slash",
+            "description": "The signature technique of Kazuha's self-styled bladework \u2014 a single slash that strikes with the force of the first winds of autumn, dealing AoE Anemo DMG. The blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals AoE Anemo DMG to opponents within its range.  Elemental Absorption If Autumn Whirlwind comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.  \"I see eternity go by in an instant, the autumns of many years from a single leaf. Thus I shall slice this maple in a flash, and ask a question of the ages.\""
+        }
+    },
+    {
+        "id": "kaeya",
+        "name": "Kaeya",
+        "rarity": 4,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 11636,
+            "atk": 223,
+            "def": 792
+        },
+        "vision": "Cryo",
+        "description": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+        "normalAttack": {
+            "name": "Normal Attack: Ceremonial Bladework",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Frostgnaw",
+            "description": "Unleashes a frigid blast, dealing Cryo DMG to opponents in front of Kaeya.  Kaeya seems affable, but his nature is that of unyielding ice."
+        },
+        "burst": {
+            "name": "Glacial Waltz",
+            "description": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him. These icicles will follow the character around and deal Cryo DMG to opponents in their path for the ability's duration.  A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons."
+        }
+    },
+    {
+        "id": "kamisato_ayaka",
+        "name": "Kamisato Ayaka",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 12858,
+            "atk": 342,
+            "def": 784
+        },
+        "vision": "Cryo",
+        "description": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+        "normalAttack": {
+            "name": "Normal Attack: Kamisato Art - Kabuki",
+            "description": "Normal Attack Performs up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash a flurry of sword ki.  Plunging Attack Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Kamisato Art: Hyouka",
+            "description": "Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG.  \"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\""
+        },
+        "burst": {
+            "name": "Kamisato Art: Soumetsu",
+            "description": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.  Frostflake Seki no To \u00b7A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG. \u00b7The snowstorm explodes after its duration ends, dealing AoE Cryo DMG.  \"The blizzard veils the heron's thoughts, pity heavy in its heart.\""
+        }
+    },
+    {
+        "id": "kamisato_ayato",
+        "name": "Kamisato Ayato",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 13715,
+            "atk": 299,
+            "def": 769
+        },
+        "vision": "Hydro",
+        "description": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+        "normalAttack": {
+            "name": "Normal Attack: Kamisato Art - Marobashi",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to dash forward and perform an iai.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Kamisato Art: Kyouka",
+            "description": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state. After this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing AoE Hydro DMG.  Takimeguri Kanka In this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into AoE Hydro DMG. This cannot be overridden. It also has the following properties: \u00b7After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends. \u00b7Kamisato Ayato's resistance to interruption is increased. \u00b7Unable to use Charged or Plunging Attacks.  Takimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.  \"When, I wonder, did you come under the illusion that you were winning?\" \u2014 Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line."
+        },
+        "burst": {
+            "name": "Kamisato Art: Suiyuu",
+            "description": "Unveils a garden of purity that silences the cacophony within. While this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing Hydro DMG and increasing the Normal Attack DMG of characters within.  \"I can see them, you know. The ripples of your beating heart within this realm of still waters.\""
+        }
+    },
+    {
+        "id": "kaveh",
+        "name": "Kaveh",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 11962,
+            "atk": 234,
+            "def": 751
+        },
+        "vision": "Dendro",
+        "description": "A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality.",
+        "normalAttack": {
+            "name": "Normal Attack: Schematic Setup",
+            "description": "Normal Attack Uses Mehrak to perform up to 4 consecutive attacks.  Charged Attack Drains Stamina over time to perform continuous slashes. At the end of the sequence, performs a more powerful slash.  Plunging Attack Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Artistic Ingenuity",
+            "description": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals AoE Dendro DMG. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.  Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work..."
+        },
+        "burst": {
+            "name": "Painted Dome",
+            "description": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing AoE Dendro DMG to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration: \u00b7Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to Dendro DMG that cannot be overridden. \u00b7All Dendro Cores created by all your own party members through Bloom reactions will deal additional DMG when they burst. \u00b7Increases Kaveh's resistance to interruption. These effects will be canceled once Kaveh leaves the field.  \"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\""
+        }
+    },
+    {
+        "id": "keqing",
+        "name": "Keqing",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 13103,
+            "atk": 323,
+            "def": 799
+        },
+        "vision": "Electro",
+        "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot.",
+        "normalAttack": {
+            "name": "Normal Attack: Yunlai Swordsmanship",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Stellar Restoration",
+            "description": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder. When the Stiletto hits its target, it deals Electro DMG to opponents in a small AoE, and places a Stiletto Mark on the spot hit.  Hold Hold to adjust the direction in which the Stiletto shall be thrown. Stilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.  Lightning Stiletto  If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects: \u00b7If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals AoE Electro DMG. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain. \u00b7If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing AoE Electro DMG.  \"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\""
+        },
+        "burst": {
+            "name": "Starward Sword",
+            "description": "Keqing unleashes the power of lightning, dealing Electro DMG in an AOE. She then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of Electro DMG. The final attack deals massive AoE Electro DMG.  The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down."
+        }
+    },
+    {
+        "id": "kirara",
+        "name": "Kirara",
+        "rarity": 4,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 12180,
+            "atk": 223,
+            "def": 546
+        },
+        "vision": "Dendro",
+        "description": "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.",
+        "normalAttack": {
+            "name": "Normal Attack: Boxcutter",
+            "description": "Normal Attack Performs up to 4 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 3 rapid claw strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Meow-teor Kick",
+            "description": "Press Leaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals AoE Dendro DMG while creating a Shield of Safe Transport. This will also briefly apply Dendro to Kirara. The shield will absorb Dendro DMG with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will reset.  Hold Out of her desire to \"deliver within half a day,\" Kirara deploys a Shield of Safe Transport identical to the one that can be created by Press the skill. She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.  Urgent Neko Parcel \u00b7 Deals Dendro DMG to opponents she crashes into. This effect can be triggered once on each opponent every 0.5s. \u00b7 When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased. \u00b7 When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the Press Mode will be unleashed, dealing AoE Dendro DMG. \u00b7 The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD will be. \u00b7 Sprinting or actively canceling climbing will end this state early.  \"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!\""
+        },
+        "burst": {
+            "name": "Secret Art: Surprise Dispatch",
+            "description": "Smash opponents with a Special Delivery Package used for punishing parcel thieves, dealing AoE Dendro DMG. After the Special Delivery Package explodes, it will split up into many Cat Grass Cardamoms that will explode either upon contact with opponents or after a period of time, dealing AoE Dendro DMG.  \"Hehe, that's right, this stuff was made to deal with those parcel thieves! Remember to leave a 5-star rating once you've received yours!\""
+        }
+    },
+    {
+        "id": "klee",
+        "name": "Klee",
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 10287,
+            "atk": 311,
+            "def": 615
+        },
+        "vision": "Pyro",
+        "description": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
+        "normalAttack": {
+            "name": "Normal Attack: Kaboom!",
+            "description": "Normal Attack Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.  Charged Attack Consumes a certain amount of Stamina and deals AoE Pyro DMG to opponents after a short casting time.  Plunging Attack Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Jumpy Dumpty",
+            "description": "Jumpy Dumpty is tons of boom-bang-fun!  When thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.  On the third bounce, the bomb splits into many mines. The mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.  Starts with 2 charges.  Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone."
+        },
+        "burst": {
+            "name": "Sparks 'n' Splash",
+            "description": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG.  The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs..."
+        }
+    },
+    {
+        "id": "kujou_sara",
+        "name": "Kujou Sara",
+        "rarity": 4,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 9570,
+            "atk": 195,
+            "def": 628
+        },
+        "vision": "Electro",
+        "description": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+        "normalAttack": {
+            "name": "Normal Attack: Tengu Bowmanship",
+            "description": "Normal Attack Perform up to 5 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal Electro DMG. When in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Tengu Stormcall",
+            "description": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather. Gains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location. Crowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing Electro DMG and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.  The ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.  The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this \"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\""
+        },
+        "burst": {
+            "name": "Subjugation: Koukou Sendou",
+            "description": "Casts down Tengu Juurai: Titanbreaker, dealing AoE Electro DMG. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing AoE Electro DMG. Tengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.  The ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.  Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew."
+        }
+    },
+    {
+        "id": "kuki_shinobu",
+        "name": "Kuki Shinobu",
+        "rarity": 4,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 12289,
+            "atk": 212,
+            "def": 751
+        },
+        "vision": "Electro",
+        "description": "The capable and reliable deputy leader of the \"Arataki Gang.\" Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
+        "normalAttack": {
+            "name": "Normal Attack: Shinobu's Shadowsword",
+            "description": "Normal Attack Perform up to 4 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Sanctifying Ring",
+            "description": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing Electro DMG to nearby opponents.  Grass Ring of Sanctification Follows your current active character around. Deals Electro DMG to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.  The HP consumption from using this skill can only bring her to 20% HP.  \"Band the Naku Weed into a loop about your waist, and it shall exorcise evil.\""
+        },
+        "burst": {
+            "name": "Gyoei Narukami Kariyama Rite",
+            "description": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous Electro DMG to opponents within its AoE based on Shinobu's Max HP. If Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.  This was originally a technique used in weeding and in ritual prayers for the yearly harvest, but Shinobu has not forgotten it, though her life as a shrine maiden may have ended."
+        }
+    },
+    {
+        "id": "layla",
+        "name": "Layla",
+        "rarity": 4,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 11092,
+            "atk": 217,
+            "def": 655
+        },
+        "vision": "Cryo",
+        "description": "A Rtawahist student who specializes in Theoretical Astrology. Heavily prone to somnambulism and locked in a grinding war with sleep deprivation, the problem of restful slumber is a most troubling one to her.",
+        "normalAttack": {
+            "name": "Normal Attack: Sword of the Radiant Path",
+            "description": "Normal Attack Performs up to 3 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Nights of Formal Focus",
+            "description": "Puts forth a shield known as the Curtain of Slumber, dealing AoE Cryo DMG. The Curtain of Slumber's DMG Absorption is based on Layla's Max HP and absorbs Cryo DMG with 250% effectiveness. When the shield is deployed, Layla will have Cryo applied to her briefly.  Night Stars and Shooting Stars While the Curtain of Slumber is active, it will create 1 Night Star that will be attached to it every 1.5s. When a character protected by this shield uses an Elemental Skill, 2 Night Stars will be created. Night Stars can be created once every 0.3s in this way. A maximum of 4 Night Stars can be accumulated at any one time. Once the Curtain of Slumber has accumulated 4 Night Stars and there are opponents nearby, these Night Stars will transform into homing Shooting Stars that will be fired off in sequence, dealing Cryo DMG to any opponents hit. If the Curtain of Slumber's duration ends or it is destroyed, the Night Stars will disappear. If they are already being fired off as Shooting Stars, these Shooting Stars will last until this wave of shots ends.  New Night Stars cannot be created until the previous wave of Shooting Stars has been fired completely.  \"She and I are like two master artisans who have never met, yet who sit at the same cushioned seat, embroidering the same dream-flower.\""
+        },
+        "burst": {
+            "name": "Dream of the Star-Stream Shaker",
+            "description": "Unleashes a Celestial Dreamsphere that constantly fires Starlight Slugs at opponents within its AoE, dealing Cryo DMG. When a Starlight Slug hits, it will generate 1 Night Star for nearby Curtains of Slumber. Each Curtain of Slumber can gain 1 Night Star this way every 0.5s.  \"Sleep now, sleep now; and may many destinies be revealed before your slumbering eyes, within your star-paved dreams.\""
+        }
+    },
+    {
+        "id": "lisa",
+        "name": "Lisa",
+        "rarity": 4,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 9570,
+            "atk": 232,
+            "def": 573
+        },
+        "vision": "Electro",
+        "description": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+        "normalAttack": {
+            "name": "Normal Attack: Lightning Touch",
+            "description": "Normal Attack Perform up to 4 lightning attacks that deal Electro DMG.  Charged Attack Consumes a certain amount of Stamina to deal AoE Electro DMG after a short casting time.  Plunging Attack Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Violet Arc",
+            "description": "Channels the power of lightning to sweep bothersome matters away.  Press Releases a homing Lightning Orb. On hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.  Hold After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents. Deals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.  Electro Purple is the raiment of the Witch of Purple Rose."
+        },
+        "burst": {
+            "name": "Lightning Rose",
+            "description": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG. The Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG throughout the ability's duration.  This rose is beautiful, but beware its mortal thorns."
+        }
+    },
+    {
+        "id": "mika",
+        "name": "Mika",
+        "rarity": 4,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 12506,
+            "atk": 223,
+            "def": 713
+        },
+        "vision": "Cryo",
+        "description": "A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character.",
+        "normalAttack": {
+            "name": "Normal Attack: Spear of Favonius - Arrow's Passage",
+            "description": "Normal Attack Performs up to 5 consecutive strikes using his crossbow and spear.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Starfrost Swirl",
+            "description": "Mika uses his crossbow to attack, granting all nearby characters in your party Soulwind. When characters in the Soulwind state are on the field, their ATK SPD will be increased. Will take effect in different ways if Tapped or Held.  Tap Fires a Flowfrost Arrow that can pierce through opponents, dealing Cryo DMG to enemies it comes into contact with.  Hold Goes into Aiming Mode, locking on to an opponent and firing a Rimestar Flare at them, dealing Cryo DMG. When the Rimestar Flare hits, it will rise before exploding, launching Rimestar Shards into a maximum of 3 other opponents, dealing Cryo DMG.  Stars burst 'neath the frosted skies."
+        },
+        "burst": {
+            "name": "Skyfeather Song",
+            "description": "Derives the ability to spur his teammates on from the recited prayers of the knightly order, regenerating HP for all nearby party members. This healing is based on Mika's Max HP and will grant them the Eagleplume state.  Eagleplume When the Normal Attacks of active characters affected by Eagleplume hit an opponent, Mika will help them regenerate HP based on his Max HP. Characters affected by this state can only regenerate HP in this way once per short interval of time.  \"Carry hope when in dire straits, and keep vigil when all is well... For that pure white plume shall at last guide the lost wayfarers.\""
+        }
+    },
+    {
+        "id": "mona",
+        "name": "Mona",
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 10409,
+            "atk": 287,
+            "def": 653
+        },
+        "vision": "Hydro",
+        "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+        "normalAttack": {
+            "name": "Normal Attack: Ripple of Fate",
+            "description": "Normal Attack Perform up to 4 water splash attacks that deal Hydro DMG.  Charged Attack Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.  Plunging Attack Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Mirror Reflection of Doom",
+            "description": "Creates an illusory Phantom of Fate from coalesced waterspouts.  The Phantom has the following special properties: \u00b7Continuously taunts nearby opponents, attracting their fire. \u00b7Continuously deals Hydro DMG to nearby opponents. \u00b7When its duration expires, the Phantom explodes, dealing AoE Hydro DMG.  Hold Utilizes water currents to move backwards swiftly before conjuring a Phantom.  Only one Phantom created by Mirror Reflection of Doom can exist at any time.  Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat."
+        },
+        "burst": {
+            "name": "Stellaris Phantasm",
+            "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.  Illusory Bubble Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects: \u00b7Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it. \u00b7Removes the Illusory Bubble, dealing Hydro DMG in the process.  Omen During its duration, increases DMG taken by opponents.  It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born."
+        }
+    },
+    {
+        "id": "nahida",
+        "name": "Nahida",
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 10360,
+            "atk": 299,
+            "def": 630
+        },
+        "vision": "Dendro",
+        "description": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+        "normalAttack": {
+            "name": "Normal Attack: Akara",
+            "description": "Normal Attack Performs up to 4 attacks that deal Dendro DMG to opponents in front of her.  Charged Attack Consumes a certain amount of Stamina to deal AoE Dendro DMG to opponents in front of her after a short casting time.  Plunging Attack Calling upon the might of Dendro, Nahida plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Dendro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "All Schemes to Know",
+            "description": "Sends forth karmic bonds of wood and tree from her side, dealing AoE Dendro DMG and marking up to 8 opponents hit with the Seed of Skandha. When held, this skill will trigger differently.  Hold Enters Aiming Mode, which will allow you to select a limited number of opponents within a limited area. During this time, Nahida's resistance to interruption will be increased. When released, this skill deals Dendro DMG to these opponents and marks them with the Seed of Skandha. Aiming Mode will last up to 5s and can select a maximum of 8 opponents.  Seed of Skandha Opponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance. After you trigger Elemental Reactions on opponents who are affected by the Seeds of Skandha or when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing Dendro DMG based on her ATK and Elemental Mastery. You can trigger at most 1 Tri-Karma Purification within a short period of time.  Lo, the god of grass and trees shines her ultimate truth into the void, illuminating the origin and destruction of the three karmas."
+        },
+        "burst": {
+            "name": "Illusory Heart",
+            "description": "Manifests the Court of Dreams and expands the Shrine of Maya.  When the Shrine of Maya field is unleashed, the following effects will be separately unleashed based on the Elemental Types present within the party. \u00b7Pyro: While Nahida remains within the Shrine of Maya, the DMG dealt by Tri-Karma Purification from \"All Schemes to Know\" is increased. \u00b7Electro: While Nahida remains within the Shrine of Maya, the interval between each Tri-Karma Purification from \"All Schemes to Know\" is decreased. \u00b7Hydro: The Shrine of Maya's duration is increased.  If there are at least 2 party members of the aforementioned Elemental Types present when the field is deployed, the aforementioned effects will be increased further.  Even if Nahida is not on the field, these bonuses will still take effect so long as party members are within the Shrine of Maya.  Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom."
+        }
+    },
+    {
+        "id": "nilou",
+        "name": "Nilou",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 15185,
+            "atk": 230,
+            "def": 729
+        },
+        "vision": "Hydro",
+        "description": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant.",
+        "normalAttack": {
+            "name": "Normal Attack: Dance of Samser",
+            "description": "Normal Attack Performs up to 3 consecutive sword strikes.  Charged Attack Consumes a certain amount of Stamina to perform a twirling slash.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Dance of Haftkarsvar",
+            "description": "Enters the Pirouette state, dealing Hydro DMG to nearby opponents based on Nilou's Max HP. While she is in the Pirouette state, Nilou's Normal Attacks and Elemental Skill will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to Hydro DMG that cannot be overridden and that is considered Elemental Skill DMG.  In these stances, Nilou's third dance step will end Pirouette, and has the following effects based on the type of said dance step: \u00b7Sword Dance: unleashes a Luminous Illusion that deals Hydro DMG to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion. \u00b7Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals AoE Hydro DMG and creates a Tranquility Aura that follows your active character around and applies Wet to opponents within its AoE.  Nilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.  \"Daintily her toes touch the water's face, and the light that ripples forth equals even the seven heavens.\""
+        },
+        "burst": {
+            "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+            "description": "Begins the dance of faraway dreams and springs that hear, causing a Lotus of Distant Waters to bloom, dealing AoE Hydro DMG based on Nilou's Max HP and applying the Lingering Aeon effect to all opponents hit. After an interval, opponents affected by Lingering Aeon will take Hydro DMG.  \"We have never witnessed that distant dream, but this dance can bring it to life.\""
+        }
+    },
+    {
+        "id": "ningguang",
+        "name": "Ningguang",
+        "rarity": 4,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 9787,
+            "atk": 212,
+            "def": 573
+        },
+        "vision": "Geo",
+        "description": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+        "normalAttack": {
+            "name": "Normal Attack: Sparkling Scatter",
+            "description": "Normal Attack Shoots gems that deal Geo DMG. Upon hit, this grants Ningguang 1 Star Jade.  Charged Attack Consumes a certain amount of stamina to fire off a giant gem that deals Geo DMG. If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.  Plunging Attack Gathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Geo DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Jade Screen",
+            "description": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG.  Jade Screen \u00b7Blocks opponents' projectiles. \u00b7Endurance scales based on Ningguang's Max HP.  Jade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.  The canvas of stars is written upon this jade screen."
+        },
+        "burst": {
+            "name": "Starshatter",
+            "description": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive Geo DMG. If Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.  Stars shatter. Silence falls."
+        }
+    },
+    {
+        "id": "noelle",
+        "name": "Noelle",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 12071,
+            "atk": 191,
+            "def": 799
+        },
+        "vision": "Geo",
+        "description": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+        "normalAttack": {
+            "name": "Normal Attack: Favonius Bladework - Maid",
+            "description": "Normal Attack Perform up to 4 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.   Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Breastplate",
+            "description": "Summons protective stone armor, dealing Geo DMG to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF. The shield has the following properties: \u00b7When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters. \u00b7Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.  The amount of HP healed when regeneration is triggered scales based on Noelle's DEF.  Noelle is both a dutiful maid and a valiant knight."
+        },
+        "burst": {
+            "name": "Sweeping Time",
+            "description": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing Geo DMG. Afterwards, Noelle gains the following effects: \u00b7Larger attack AoE. \u00b7Converts attack DMG to Geo DMG that cannot be overridden by any other elemental infusion. \u00b7Increased ATK that scales based on her DEF.  Sometimes, it's not just dust that needs sweeping..."
+        }
+    },
+    {
+        "id": "qiqi",
+        "name": "Qiqi",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 12368,
+            "atk": 287,
+            "def": 922
+        },
+        "vision": "Cryo",
+        "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+        "normalAttack": {
+            "name": "Normal Attack: Ancient Sword Art",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Adeptus Art: Herald of Frost",
+            "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.  Herald of Frost \u00b7On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK. \u00b7Periodically regenerates your active character's HP. \u00b7Follows the character around, dealing Cryo DMG to opponents in their path.  I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes."
+        },
+        "burst": {
+            "name": "Adeptus Art: Preserver of Fortune",
+            "description": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.  Fortune-Preserving Talisman When opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.  \"I am the Fortune Preserver, the Maiden of Resurrection.\" \u2014 Qiqi does not remember these words."
+        }
+    },
+    {
+        "id": "raiden_shogun",
+        "name": "Raiden Shogun",
+        "rarity": 5,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 12907,
+            "atk": 337,
+            "def": 789
+        },
+        "vision": "Electro",
+        "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+        "normalAttack": {
+            "name": "Normal Attack: Origin",
+            "description": "Normal Attack Performs up to 5 consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to perform an upward slash.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Transcendence: Baleful Omen",
+            "description": "The Raiden Shogun unveils a shard of her Euthymia, dealing Electro DMG to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.  Eye of Stormy Judgment \u00b7When characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing AoE Electro DMG at the opponent's position. \u00b7Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.  The Eye can initiate one coordinated attack every 0.9s per party. Coordinated attacks generated by characters not controlled by you deal 20% of the normal DMG.  Beings of great divinity might affect all that they survey, and the Electro Archon can manipulate the very inauspicious stars themselves to defend her retainers and bring a thundering sentence down on their foes."
+        },
+        "burst": {
+            "name": "Secret Art: Musou Shinsetsu",
+            "description": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals AoE Electro DMG, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.  Musou Isshin While in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with Electro DMG, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration. While in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to Electro-Charged reaction DMG. While Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.  The effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.  Chakra Desiderata When nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts. The maximum number of Resolve stacks is 60.  The Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field.  This is the Raiden Shogun's new secret technique. Abandoning the void-like \"Musou,\" she now shoulders a new \"Musou\" \u2014 the dreams and ambitions of all. Just as \"shinsetsu,\" \"the truth,\" also means \"the new,\" so too has Inazuma entered a new chapter."
+        }
+    },
+    {
+        "id": "razor",
+        "name": "Razor",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 11962,
+            "atk": 234,
+            "def": 751
+        },
+        "vision": "Electro",
+        "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+        "normalAttack": {
+            "name": "Normal Attack: Steel Fang",
+            "description": "Normal Attack Perform up to 4 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.   Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Claw and Thunder",
+            "description": "Hunts his prey using the techniques taught to him by his master and his lupical.  Press Swings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor. Upon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate. Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.  Hold Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils. Each Electro Sigil cleared in this manner will be converted into Energy for Razor.  In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes."
+        },
+        "burst": {
+            "name": "Lightning Fang",
+            "description": "Summons the Wolf Within, which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him. The Wolf Within will fight alongside Razor for the skill's duration.  The Wolf Within \u00b7Strikes alongside Razor's normal attacks, dealing Electro DMG. \u00b7Raises Razor's ATK SPD and Electro RES. \u00b7Causes Razor to be immune to DMG inflicted by the Electro-Charged status. \u00b7Disables Razor's Charged Attacks. \u00b7Increases Razor's resistance to interruption.  These effects end when Razor leaves the battlefield. When Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.  The wolf has awoken. The hunt is on."
+        }
+    },
+    {
+        "id": "rosaria",
+        "name": "Rosaria",
+        "rarity": 4,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 12289,
+            "atk": 240,
+            "def": 710
+        },
+        "vision": "Cryo",
+        "description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+        "normalAttack": {
+            "name": "Normal Attack: Spear of the Church",
+            "description": "Normal Attack Performs up to five consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Ravaging Confession",
+            "description": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing Cryo DMG. This ability cannot be used to travel behind opponents of a larger build.  Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins."
+        },
+        "burst": {
+            "name": "Rites of Termination",
+            "description": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal Cryo DMG. While active, the Ice Lance periodically releases a blast of cold air, dealing Cryo DMG to surrounding opponents.  Judgment is such a tedious ordeal \u2014 much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy."
+        }
+    },
+    {
+        "id": "sangonomiya_kokomi",
+        "name": "Sangonomiya Kokomi",
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 13471,
+            "atk": 234,
+            "def": 657
+        },
+        "vision": "Hydro",
+        "description": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+        "normalAttack": {
+            "name": "Normal Attack: The Shape of Water",
+            "description": "Normal Attack Performs up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.  Charged Attack Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.  Plunging Attack Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Kurage's Oath",
+            "description": "Summons a \"Bake-Kurage\" created from water that can heal her allies. Using this skill will apply the Wet status to Sangonomiya Kokomi.  Bake-Kurage Deals Hydro DMG to surrounding opponents and heals nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.  Kokomi needs timely \"refreshment\" in order to maintain optimal work efficiency."
+        },
+        "burst": {
+            "name": "Nereid's Ascension",
+            "description": "Summons the might of Watatsumi, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.  Ceremonial Garment \u00b7Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP. \u00b7When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP. \u00b7Increases Sangonomiya Kokomi's resistance to interruption and allows her to walk on the water's surface.  These effects will be cleared once Sangonomiya Kokomi leaves the field.  Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form."
+        }
+    },
+    {
+        "id": "sayu",
+        "name": "Sayu",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 11854,
+            "atk": 244,
+            "def": 745
+        },
+        "vision": "Anemo",
+        "description": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+        "normalAttack": {
+            "name": "Normal Attack: Shuumatsuban Ninja Blade",
+            "description": "Normal Attack Performs up to 4 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.   Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Yoohoo Art: Fuuin Dash",
+            "description": "The special technique of the Yoohoo Ninja Arts! Sayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.  Press Enters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.  Hold Rolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state. During this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick. The Hold version of this skill can trigger Elemental Absorption.  This skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.  Elemental Absorption If Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her Windwheel state, she will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use of this skill.  Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it."
+        },
+        "burst": {
+            "name": "Yoohoo Art: Mujina Flurry",
+            "description": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu. Deals Anemo DMG to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.  Muji-Muji Daruma At specific intervals, the Daruma will take one of several actions based on the situation around it: \u00b7If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing Anemo DMG. \u00b7If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.  People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed."
+        }
+    },
+    {
+        "id": "shenhe",
+        "name": "Shenhe",
+        "rarity": 5,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 12993,
+            "atk": 304,
+            "def": 830
+        },
+        "vision": "Cryo",
+        "description": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+        "normalAttack": {
+            "name": "Normal Attack: Dawnstar Piercer",
+            "description": "Normal Attack Performs up to five consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Spring Spirit Summoning",
+            "description": "The frosted dew, silvery and dense, shall exorcise all demons. Grants all nearby party members the Icy Quill effect and deals Cryo DMG in different ways based on whether it is pressed or held.  pressed Rushes forward together with a Talisman Spirit, dealing Cryo DMG to opponents along the path.  Hold Commands the Talisman Spirit to deal AoE Cryo DMG.  Icy Quill When Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal Cryo DMG to opponents, the DMG dealt is increased based on Shenhe's current ATK.  The Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times. When one Cryo DMG instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.  The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!"
+        },
+        "burst": {
+            "name": "Divine Maiden's Deliverance",
+            "description": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing AoE Cryo DMG. The Talisman Spirit then creates a field that decreases the Cryo RES and Physical RES of opponents within it. It also deals periodic Cryo DMG to opponents within the field.  The way of the adepti is not defined only by the mysterious and fantastical. Only by observing the changes in the heavens and the earth, and understanding the laws of cause and effect in this realm, may its essence be understood."
+        }
+    },
+    {
+        "id": "shikanoin_heizou",
+        "name": "Shikanoin Heizou",
+        "rarity": 4,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 10657,
+            "atk": 225,
+            "def": 684
+        },
+        "vision": "Anemo",
+        "description": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
+        "normalAttack": {
+            "name": "Normal Attack: Fudou Style Martial Arts",
+            "description": "Normal Attack Performs up to 5 fisticuffs empowered by a mighty wind, dealing Anemo DMG.  Charged Attack Consumes a certain amount of Stamina and performs a sweeping kick that deals Anemo DMG.  Plunging Attack Calling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Heartstopper Strike",
+            "description": "Tap Wields the swift winds to launch a Heartstopper Strike that deals Anemo DMG.  Hold Charges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing Anemo DMG.  Declension Increases the power of the next Heartstopper Strike. Max 4 stacks. When you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Hearstopper Strike to be even stronger and have a larger AoE.  This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent."
+        },
+        "burst": {
+            "name": "Windmuster Kick",
+            "description": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing AoE Anemo DMG. When Vacuum Slugger hits opponents affected by Hydro/Pyro/Cryo/Electro, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type. Vacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.  A unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back."
+        }
+    },
+    {
+        "id": "sucrose",
+        "name": "Sucrose",
+        "rarity": 4,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 9244,
+            "atk": 170,
+            "def": 703
+        },
+        "vision": "Anemo",
+        "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+        "normalAttack": {
+            "name": "Normal Attack: Wind Spirit Creation",
+            "description": "Normal Attack Performs up to 4 attacks using Wind Spirits, dealing Anemo DMG.  Charged Attack Consumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.  Plunging Attack Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Astable Anemohypostasis Creation - 6308",
+            "description": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG.  This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications."
+        },
+        "burst": {
+            "name": "Forbidden Creation - Isomer 75 / Type II",
+            "description": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit. While it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal Anemo DMG.  Elemental Absorption If the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro energy, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.  Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd."
+        }
+    },
+    {
+        "id": "tartaglia",
+        "name": "Tartaglia",
+        "rarity": 5,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 13103,
+            "atk": 301,
+            "def": 815
+        },
+        "vision": "Hydro",
+        "description": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+        "normalAttack": {
+            "name": "Normal Attack: Cutting Torrent",
+            "description": "Normal Attack Perform up to 6 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal Hydro DMG and apply the Riptide status.  Riptide Opponents affected by Riptide will suffer from AoE Hydro DMG effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG. \u00b7Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s. \u00b7Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact. When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack."
+        },
+        "elementalSkill": {
+            "name": "Foul Legacy: Raging Tide",
+            "description": "Unleashes a set of weaponry made of pure water, dealing Hydro DMG to surrounding opponents and entering Melee Stance. In this Stance, Tartaglia's Normal and Charged Attacks are converted to Hydro DMG that cannot be overridden by any other elemental infusion and change as follows:  Normal Attack Perform up to 6 consecutive Hydro strikes.  Charged Attack Consumes a certain amount of Stamina to unleash a cross slash, dealing Hydro DMG.  Riptide Slash Hitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.  After 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD. If the return to a ranged stance occurs automatically after 30s, the CD is even longer.  He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious..."
+        },
+        "burst": {
+            "name": "Havoc: Obliteration",
+            "description": "Performs different attacks based on what stance Tartaglia is in when casting.  Ranged Stance: Flash of Havoc Swiftly fires a Hydro-imbued magic arrow, dealing AoE Hydro DMG and applying the Riptide status. Returns a portion of its Energy Cost after use.  Melee Stance: Light of Obliteration Performs a slash with a large AoE, dealing massive Hydro DMG to all surrounding opponents, which triggers Riptide Blast.  Riptide Blast When the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Burst DMG.  Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is."
+        }
+    },
+    {
+        "id": "thoma",
+        "name": "Thoma",
+        "rarity": 4,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 10331,
+            "atk": 202,
+            "def": 751
+        },
+        "vision": "Pyro",
+        "description": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+        "normalAttack": {
+            "name": "Normal Attack: Swiftshatter Spear",
+            "description": "Normal Attack Performs up to four consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Blazing Blessing",
+            "description": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals AoE Pyro DMG, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies Pyro to himself. The DMG Absorption of the Blazing Barrier scales off Thoma's Max HP. The Blazing Barrier has the following traits: \u00b7Absorbs Pyro DMG 250% more effectively. \u00b7When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.  The maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.  As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well."
+        },
+        "burst": {
+            "name": "Crimson Ooyoroi",
+            "description": "Thoma spins his polearm, slicing at his foes with roaring flames that deal AoE Pyro DMG and weave themselves into a Scorching Ooyoroi.  Scorching Ooyoroi While Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing AoE Pyro DMG and summoning a Blazing Barrier. Fiery Collapse can be triggered once every 1s.  Except for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing: \u00b7Absorbs Pyro DMG 250% more effectively. \u00b7When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.  The maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.  If Thoma falls, the effects of Scorching Ooyoroi will be cleared.  \"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\""
+        }
+    },
+    {
+        "id": "tighnari",
+        "name": "Tighnari",
+        "rarity": 5,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 10850,
+            "atk": 268,
+            "def": 630
+        },
+        "vision": "Dendro",
+        "description": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart \u2014 and a dab hand at guiding even the dullest of pupils.",
+        "normalAttack": {
+            "name": "Normal Attack: Khanda Barrier-Buster",
+            "description": "Normal Attack Perform up to 4 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, the power of Dendro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged: \u00b7Charge Level 1: Fires off an arrow carrying the power of flora that deals Dendro DMG. \u00b7Charge Level 2: Fires off a Wreath Arrow that deals Dendro DMG. Upon hit, the Wreath Arrow will create 4 Clusterbloom Arrows that will track nearby opponents automatically and deal Dendro DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Vijnana-Phala Mine",
+            "description": "Tighnari throws a Vijnana Stormheart ahead that deals AoE Dendro DMG, creating a Vijnana-Khanda Field that creates mysterious illusions that taunt opponents and draw their fire. Additionally, Tighnari gains the Vijnana Suffusion effect, which will decrease the Wreath Arrow's charging time by 2.4s. This effect will dissipate once the skill duration ends or after Tighnari has fired 3 Wreath Arrows.  \"If seeds wither apart from the soil, they will remain a single seed. But if returned to the soil, they shall multiply ten-million fold.\""
+        },
+        "burst": {
+            "name": "Fashioner's Tanglevine Shaft",
+            "description": "Combines the power of all seeds to fire 6 Tanglevine Shafts that can track opponents and deal Dendro DMG. After they hit, the Tanglevine Shafts will create a secondary wave of Tanglevine Shafts that can also track opponents and deal Dendro DMG on hit.  \"Do not seek to escape so easily. The vines grow and regrow ever on. Things might get dicey if you don't clear every last one of them out.\""
+        }
+    },
+    {
+        "id": "traveler_anemo",
+        "name": "Traveler (Anemo)",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 10122,
+            "atk": 198,
+            "def": 635
+        },
+        "vision": "Anemo",
+        "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+        "normalAttack": {
+            "name": "Normal Attack: Foreign Ironwind",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Palm Vortex",
+            "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.  Hold DMG and AoE will gradually increase.  Elemental Absorption If the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.  You discussed the way to grasp the formless wind with Paimon."
+        },
+        "burst": {
+            "name": "Gust Surge",
+            "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG.  Elemental Absorption If the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.  You and Paimon studied the flapping of a butterfly's wings."
+        }
+    },
+    {
+        "id": "traveler_geo",
+        "name": "Traveler (Geo)",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 10122,
+            "atk": 198,
+            "def": 635
+        },
+        "vision": "Geo",
+        "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+        "normalAttack": {
+            "name": "Normal Attack: Foreign Rockblade",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Starfell Sword",
+            "description": "You disgorge a meteorite from the depths of the earth, dealing AoE Geo DMG. The meteorite is considered a Geo Construct, and can be climbed or used to block attacks.  Hold This skill's positioning may be adjusted.  You spoke with Paimon about the final destination of falling stars."
+        },
+        "burst": {
+            "name": "Wake of Earth",
+            "description": "Energizing the Geo deep underground, you set off expanding shockwaves. Launches surrounding opponents back and deals AoE Geo DMG. A stone wall is erected at the edges of the shockwave. The stone wall is considered a Geo Construct, and may be used to block attacks.  You and Paimon studied the pulse of the mountains."
+        }
+    },
+    {
+        "id": "traveler_electro",
+        "name": "Traveler (Electro)",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 10122,
+            "atk": 198,
+            "def": 635
+        },
+        "vision": "Electro",
+        "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+        "normalAttack": {
+            "name": "Normal Attack: Foreign Thundershock",
+            "description": "Normal Attack Performs up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Lightning Blade",
+            "description": "Unleashes three swift thunder shadows that deal Electro DMG to opponents and leave an Abundance Amulet behind after hitting an opponent. 2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.  Abundance Amulets When a character is near an Abundance Amulet, they will absorb it and obtain the following effects: \u00b7Restores Elemental Energy \u00b7Increases Energy Recharge during the Abundance Amulet's duration.  You and Paimon discuss the paths by which electricity might flow."
+        },
+        "burst": {
+            "name": "Bellowing Thunder",
+            "description": "You call upon the protection of lightning, knocking nearby opponents back and dealing Electro DMG to them.  Lightning Shroud When your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing Electro DMG. When Falling Thunder hits opponents, it will regenerate Energy for that character. One instance of Falling Thunder can be generated every 0.5s.  You and Paimon studied the light that flashes through the clouds."
+        }
+    },
+    {
+        "id": "traveler_dendro",
+        "name": "Traveler (Dendro)",
+        "rarity": 5,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 10875,
+            "atk": 212,
+            "def": 683
+        },
+        "vision": "Dendro",
+        "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+        "normalAttack": {
+            "name": "Normal Attack: Foreign Fieldcleaver",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Razorgrass Blade",
+            "description": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG.  You and Paimon observed the flowing edges of grass and leaf."
+        },
+        "burst": {
+            "name": "Surgent Manifestation",
+            "description": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp. This Lamp will deal continuous Dendro DMG to opponents within its AoE.  Lotuslight Transfiguration The Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro: \u00b7Hydro: the Lamp's AoE and the AoE of its attacks are increased. \u00b7Electro: the Lamp's ATK SPD is increased. \u00b7Pyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG. The Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.  Only one Lamp created by the Traveler can exist at any one time.  You and Paimon studied the sounds of plants that sprout after the rain."
+        }
+    },
+    {
+        "id": "venti",
+        "name": "Venti",
+        "rarity": 5,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 10531,
+            "atk": 263,
+            "def": 669
+        },
+        "vision": "Anemo",
+        "description": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+        "normalAttack": {
+            "name": "Normal Attack: Divine Marksmanship",
+            "description": "Normal Attack Perform up to 6 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Skyward Sonnet",
+            "description": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!  Press Summons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.  Hold Summons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air. After unleashing the Hold version of this ability, Venti rides the wind into the air.  Opponents hit by Skyward Sonnet will fall to the ground slowly.  In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten."
+        },
+        "burst": {
+            "name": "Wind's Grand Ode",
+            "description": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous Anemo DMG.  Elemental Absorption If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.  Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind."
+        }
+    },
+    {
+        "id": "wanderer",
+        "name": "Wanderer",
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 10164,
+            "atk": 328,
+            "def": 607
+        },
+        "vision": "Anemo",
+        "description": "A wayfaring figure whose identity is a mystery. He dresses like a mountain ascetic, but he certainly does not act the part.",
+        "normalAttack": {
+            "name": "Normal Attack: Yuuban Meigen",
+            "description": "Normal Attack Performs up to 3 attacks using wind blades, dealing Anemo DMG.  Charged Attack Consumes a certain amount of Stamina, gathers a build up of high wind pressure, and deals AoE Anemo DMG after a short casting time.  Plunging Attack Calling upon the power of Anemo, the Wanderer plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Hanega: Song of the Wind",
+            "description": "Concentrates the power of the winds to break free from the shackles of the earth, dealing AoE Anemo DMG before leaping into the air and entering the Windfavored state.  Windfavored The Wanderer cannot perform Plunging Attacks in this state. When he uses Normal and Charged Attacks, they will be converted into Kuugo: Fushoudan and Kuugo: Toufukai respectively; the DMG they deal and their AoE will be increased, and their DMG will be considered Normal and Charged Attack DMG respectively. Kuugo: Toufukai will not consume Stamina. The Wanderer will hover persistently during this time. While this state is active, the Wanderer's movements gain the following properties: \u00b7Persistently consumes Kuugoryoku Points to maintain this hovering state. \u00b7When sprinting, additional Kuugoryoku Points will be consumed for the Wanderer to accelerate mid-air. Holding sprint will cause persistent Kuugoryoku Point consumption to maintain speed. This effect will replace his default sprint. \u00b7Jumping expends extra Kuugoryoku Points to increase hovering height. Holding jump will cause persistent Kuugoryoku Point consumption to keep increasing hovering height.  Running out of Kuugoryoku Points will end the Windfavored state. A second cast during the duration of Windfavored will also end it.  \"The world dances in a weightless whirl, presenting a secret that can only be found in the flowers.\""
+        },
+        "burst": {
+            "name": "Kyougen: Five Ceremonial Plays",
+            "description": "Compresses the atmosphere into a singular vacuum that grinds all troubles away, dealing multiple instances of AoE Anemo DMG. If the character is in the Windfavored state due to the skill \"Hanega: Song of the Wind,\" Windfavored state will end after casting.  \"Bright be the narrowed gaze of the sky, casting its sight on dreams both past and present, like radiance washing over dust on the winds.\""
+        }
+    },
+    {
+        "id": "xiangling",
+        "name": "Xiangling",
+        "rarity": 4,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 10875,
+            "atk": 225,
+            "def": 669
+        },
+        "vision": "Pyro",
+        "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+        "normalAttack": {
+            "name": "Normal Attack: Dough-Fu",
+            "description": "Normal Attack Performs up to five consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Guoba Attack",
+            "description": "Summons Guoba, who will continuously breathe fire at opponents, dealing AoE Pyro DMG.  Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy."
+        },
+        "burst": {
+            "name": "Pyronado",
+            "description": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her. The Pyronado will move with your character for the ability's duration, dealing Pyro DMG to all opponents in its path.  There will never be enough heat. Never."
+        }
+    },
+    {
+        "id": "xiao",
+        "name": "Xiao",
+        "rarity": 5,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 12736,
+            "atk": 349,
+            "def": 799
+        },
+        "vision": "Anemo",
+        "description": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
+        "normalAttack": {
+            "name": "Normal Attack: Whirlwind Thrust",
+            "description": "Normal Attack Performs up to 6 consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to perform an upward thrust.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. Xiao does not take DMG from performing Plunging Attacks."
+        },
+        "elementalSkill": {
+            "name": "Lemniscatic Wind Cycling",
+            "description": "Xiao lunges forward, dealing Anemo DMG to opponents in his path. Can be used in mid-air. Starts with 2 charges.  According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels."
+        },
+        "burst": {
+            "name": "Bane of All Evil",
+            "description": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.  Yaksha's Mask \u00b7Greatly increases Xiao's jumping ability. \u00b7Increases his attack AoE and attack DMG. \u00b7Converts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.  In this state, Xiao will continuously lose HP. The effects of this skill end when Xiao leaves the field.  Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\""
+        }
+    },
+    {
+        "id": "xingqiu",
+        "name": "Xingqiu",
+        "rarity": 4,
+        "weapon": "Sword",
+        "stats": {
+            "hp": 10222,
+            "atk": 202,
+            "def": 758
+        },
+        "vision": "Hydro",
+        "description": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+        "normalAttack": {
+            "name": "Normal Attack: Guhua Style",
+            "description": "Normal Attack Perform up to 5 rapid strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Guhua Sword: Fatal Rainscreen",
+            "description": "Xingqiu performs twin strikes with his sword, dealing Hydro DMG. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character. The Rain Swords have the following properties: \u00b7When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken. \u00b7Increases the character's resistance to interruption. 20% of Xingqiu's Hydro DMG Bonus will be converted to additional DMG Reduction for the Rain Swords.  The maximum amount of additional DMG Reduction that can be gained this way is 24%. The initial maximum number of Rain Swords is 3. Using this ability applies the Wet status onto the character.  \"Easier to slay a rain dragon than to sever the rain.\""
+        },
+        "burst": {
+            "name": "Guhua Sword: Raincutter",
+            "description": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.  Rainbow Bladework \u00b7Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing Hydro DMG. \u00b7Rain Swords will remain at the maximum number throughout the ability's duration.  The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect."
+        }
+    },
+    {
+        "id": "xinyan",
+        "name": "Xinyan",
+        "rarity": 4,
+        "weapon": "Claymore",
+        "stats": {
+            "hp": 11201,
+            "atk": 249,
+            "def": 799
+        },
+        "vision": "Pyro",
+        "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+        "normalAttack": {
+            "name": "Normal Attack: Dance on Fire",
+            "description": "Normal Attack Perform up to 4 consecutive strikes.  Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.   Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Sweeping Fervor",
+            "description": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby opponents, forming a shield made out of her audience's passion. The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit. \u00b7Hitting 0\u20131 opponents grants Shield Level 1: Ad Lib. \u00b7Hitting 2 opponents grants Shield Level 2: Lead-In. \u00b7Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby opponents.  The shield has the following special properties: \u00b7When unleashed, it infuses Xinyan with Pyro. \u00b7It has 250% DMG Absorption effectiveness against Pyro DMG.  Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision."
+        },
+        "burst": {
+            "name": "Riff Revolution",
+            "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd. The sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby opponents.  Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\""
+        }
+    },
+    {
+        "id": "yae_miko",
+        "name": "Yae Miko",
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 10372,
+            "atk": 340,
+            "def": 569
+        },
+        "vision": "Electro",
+        "description": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+        "normalAttack": {
+            "name": "Normal Attack: Spiritfox Sin-Eater",
+            "description": "Normal Attack Summons forth kitsune spirits, initiating a maximum of 3 attacks that deal Electro DMG.  Charged Attack Consumes a certain amount of Stamina to deal AoE Electro DMG after a short casting time.  Plunging Attack Plunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals AoE Electro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Yakan Evocation: Sesshou Sakura",
+            "description": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally. Moves swiftly, leaving a Sesshou Sakura behind.  Sesshou Sakura Has the following properties: \u00b7 Periodically strikes one nearby opponent with lightning, dealing Electro DMG \u00b7 When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.  This skill has three charges. A maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.  \"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed \u2014 and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\""
+        },
+        "burst": {
+            "name": "Great Secret Art: Tenko Kenshin",
+            "description": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing AoE Electro DMG. When she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing AoE Electro DMG. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.  Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail."
+        }
+    },
+    {
+        "id": "yanfei",
+        "name": "Yanfei",
+        "rarity": 4,
+        "weapon": "Catalyst",
+        "stats": {
+            "hp": 9352,
+            "atk": 240,
+            "def": 587
+        },
+        "vision": "Pyro",
+        "description": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+        "normalAttack": {
+            "name": "Normal Attack: Seal of Approval",
+            "description": "Normal Attack Shoots fireballs that deal up to three counts of Pyro DMG. When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh. Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.  Charged Attack Consumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to opponents after a short casting time. This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.  Plunging Attack Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
+        },
+        "elementalSkill": {
+            "name": "Signed Edict",
+            "description": "Summons blistering flames that deal AoE Pyro DMG. Opponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.  Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature."
+        },
+        "burst": {
+            "name": "Done Deal",
+            "description": "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.  Brilliance Has the following effects: \u00b7Grants Yanfei a Scarlet Seal at fixed intervals. \u00b7Increases the DMG dealt by her Charged Attacks. The effects of Brilliance will end if Yanfei leaves the field or falls in battle.  \"Here are the full terms for this matter of life and death \u2014 by which I mean my life and your death!\""
+        }
+    },
+    {
+        "id": "yaoyao",
+        "name": "Yaoyao",
+        "rarity": 4,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 12289,
+            "atk": 212,
+            "def": 751
+        },
+        "vision": "Dendro",
+        "description": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\"",
+        "normalAttack": {
+            "name": "Normal Attack: Toss 'N' Turn Spear",
+            "description": "Normal Attack Performs up to 4 consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Raphanus Sky Cluster",
+            "description": "Calls upon \"Yuegui: Throwing Mode,\" a special device created by a certain adeptus to help Yaoyao solve her problems. This skill will be used differently in Holding Mode.  Hold Enters Aiming Mode to adjust the throw direction.  Yuegui: Throwing Mode Throws out White Jade Radishes that will explode upon hitting characters or opponents, dealing Dendro DMG to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao's Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires. Yuegui: Throwing Mode will choose its radish-throw targets. \u00b7If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent. \u00b7If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.  A maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.  \"A radish a day keeps trouble away! ... Oh, this isn't about a radish's medical properties, exactly, but it does have some health benefits, yeah!\""
+        },
+        "burst": {
+            "name": "Moonjade Descent",
+            "description": "At the enjoinment of a certain adeptus, Yuegui's full potential can be unleashed in an emergency, dealing Dendro DMG to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.  Adeptal Legacy \u00b7White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the Dendro DMG that they deal will be viewed as Elemental Burst DMG instead. \u00b7Summons \"Yuegui: Jumping Mode\" at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of \"Yuegui: Throwing Mode\" in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time. \u00b7Yaoyao's Movement SPD is increased by 15%. \u00b7Yaoyao's Dendro RES will be increased.  The Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.  \"Eh? Which one of these is actually Yuegui, you ask? Aren't they all Yuegui?\""
+        }
+    },
+    {
+        "id": "yelan",
+        "name": "Yelan",
+        "rarity": 5,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 14450,
+            "atk": 244,
+            "def": 548
+        },
+        "vision": "Hydro",
+        "description": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+        "normalAttack": {
+            "name": "Normal Attack: Stealthy Bowshot",
+            "description": "Normal Attack Performs up to 4 consecutive shots with a bow.  Charged Attack Perform a more precise Aimed Shot with increased DMG. While aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal Hydro DMG.  Breakthrough Yelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal AoE Hydro DMG based on Yelan's Max HP.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Lingering Lifeline",
+            "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path. When this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.  Tap Moves a certain distance forward swiftly.  Hold Engages in continuous, swift movement, during which Yelan's resistance to interruption is increased. During this time, Yelan can control this rapid movement and end it by using this Skill again.  Additionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.  Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape."
+        },
+        "burst": {
+            "name": "Depth-Clarion Dice",
+            "description": "Deals AoE Hydro DMG and creates an \"Exquisite Throw,\" which aids her in battle.  Exquisite Throw Follows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP: \u00b7Can occur once every second when your active character uses a Normal Attack. \u00b7Will occur each time Yelan's Lifeline explodes and hits opponents.  \"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\""
+        }
+    },
+    {
+        "id": "yoimiya",
+        "name": "Yoimiya",
+        "rarity": 5,
+        "weapon": "Bow",
+        "stats": {
+            "hp": 10164,
+            "atk": 323,
+            "def": 615
+        },
+        "vision": "Pyro",
+        "description": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+        "normalAttack": {
+            "name": "Normal Attack: Firework Flare-Up",
+            "description": "Normal Attack Performs up to 5 consecutive shots with a bow.  Charged Attack Performs a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged: \u00b7Charge Level 1: Fires off a flaming arrow that deals Pyro DMG. \u00b7Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit.  Plunging Attack Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Niwabi Fire-Dance",
+            "description": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.  Niwabi Enshou During this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to Pyro DMG. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.  This effect will deactivate when Yoimiya leaves the field.  \"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars."
+        },
+        "burst": {
+            "name": "Ryuukin Saxifrage",
+            "description": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal AoE Pyro DMG and mark one of the hit opponents with Aurous Blaze.  Aurous Blaze All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing AoE Pyro DMG. When an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.  One Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.  Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on."
+        }
+    },
+    {
+        "id": "yun_jin",
+        "name": "Yun Jin",
+        "rarity": 4,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 10657,
+            "atk": 191,
+            "def": 734
+        },
+        "vision": "Geo",
+        "description": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+        "normalAttack": {
+            "name": "Normal Attack: Cloud-Grazing Strike",
+            "description": "Normal Attack Performs up to five consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Opening Flourish",
+            "description": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.  Press Flourishes her polearm in a cloud-grasping stance, dealing Geo DMG.  Hold Takes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill. When the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing Geo DMG. Based on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.  One glorious moment on-stage, a decade of preparation behind it."
+        },
+        "burst": {
+            "name": "Cliffbreaker's Banner",
+            "description": "Deals AoE Geo DMG and grants all nearby party members a Flying Cloud Flag Formation.  Flying Cloud Flag Formation When Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.  The effects of this skill will be cleared after a set duration or after being triggered a specific number of times. When one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.  As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general. As the instruments on stage strum in unison, lo, see how she vanquishes these demons!"
+        }
+    },
+    {
+        "id": "zhongli",
+        "name": "Zhongli",
+        "rarity": 5,
+        "weapon": "Polearm",
+        "stats": {
+            "hp": 14695,
+            "atk": 251,
+            "def": 738
+        },
+        "vision": "Geo",
+        "description": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+        "normalAttack": {
+            "name": "Normal Attack: Rain of Stone",
+            "description": "Normal Attack Performs up to 6 consecutive spear strikes.  Charged Attack Consumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.  Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        },
+        "elementalSkill": {
+            "name": "Dominus Lapidis",
+            "description": "Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.  Press Commands the power of earth to create a Stone Stele.  Hold Causes nearby Geo energy to explode, causing the following effects: \u00b7If their maximum number hasn't been reached, creates a Stone Stele. \u00b7Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP. \u00b7Deals AoE Geo DMG. \u00b7If there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG.  Stone Stele When created, deals AoE Geo DMG. Additionally, it will intermittently resonate with other nearby Geo constructs, dealing Geo DMG to nearby opponents. The Stone Stele is considered a Geo construct that can both be climbed and used to block attacks. Only one Stele created by Zhongli himself may initially exist at any one time.  Jade Shield Possesses 150% DMG Absorption against all Elemental and Physical DMG. Characters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.  A true master of stone may carve jade and shape gold."
+        },
+        "burst": {
+            "name": "Planet Befall",
+            "description": "Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them.  Petrification Opponents affected by the Petrification status cannot move.  The falling meteor punishes the unjust."
+        }
+    }
+]

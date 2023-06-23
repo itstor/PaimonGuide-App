@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Paimon Guide</string>
+    <string name="author_name">Akhmad Thoriq Afif</string>
+    <string name="author_email">ahmdthoriq5@gmail.com</string>
+    <string name="about_title">About</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="home_title">Home</string>
+    <string name="character_not_found_message">Character not found</string>
+    <string name="error_loading_character_data_message">Error loading character data</string>
+    <string name="introduction_title">Introduction</string>
+    <string name="talents_title">Talents</string>
+    <string name="hp">HP</string>
+    <string name="atk">ATK</string>
+    <string name="def">DEF</string>
+    <string name="characters_title">Characters</string>
+</resources>
